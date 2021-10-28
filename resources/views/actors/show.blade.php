@@ -55,7 +55,7 @@
                 </ul>
             </div>
             <div class="md:ml-24">
-                <h2 class="text-4xl font-semibold">{{ $actor['name'] }}</h2>
+                <h2 class="text-4xl font-semibold text-yellow-600">{{ $actor['name'] }}</h2>
                 <div class="flex flex-wrap items-center text-gray-400 text-sm mt-2">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
@@ -67,7 +67,7 @@
                     {{ $actor['biography'] }}
                 </p>
 
-                <h4 class="font-semibold mt-12">Known For</h4>
+                <h4 class="font-semibold text-lg mt-12 mb-6 text-yellow-600">Known For</h4>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
                     @foreach ($knownForMovies as $movie)
                         <a href="{{ $movie['linkToPage'] }}" class="text-sm leading-normal text-gray-400 block hover:text-white mt-2 hover:opacity-75 transition ease-in-out duration-200">
@@ -92,7 +92,7 @@
 
     <div class="credits border-b border-gray-800">
         <div class="container mx-auto px-4 py-16">
-            <h2 class="text-4xl font-semibold">Credits</h2>
+            <h2 class="text-4xl font-semibold text-yellow-600">Career</h2>
             <ul class="list-disc leading-loose pl-5 mt-8">
                 @foreach ($credits as $credit)
                     <li>{{ $credit['release_year'] }} &middot; <strong>{{ $credit['title'] }} as {{ $credit['character'] }}</strong></li>
