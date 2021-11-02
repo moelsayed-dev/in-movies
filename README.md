@@ -9,3 +9,4 @@ I would like to thank The Movie Database(TMDB) for their amazing API [Website](h
 - **[Laravel Livewire](https://laravel-livewire.com/)**
 - **[TailwindCss](https://tailwindcss.com)**
 - **[Alpine.js](https://alpinejs.dev)**
+// test
