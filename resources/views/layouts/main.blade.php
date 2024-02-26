@@ -14,7 +14,7 @@
             <ul class="flex flex-col md:flex-row items-center font-semibold text-lg">
                 <li class="w-36 bg-yellow-600 rounded-sm p-1 font-mono">
                     <a href="{{ route('movies.index') }}" class="flex relative">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-32" fill="none" viewBox="0 0 96 24" stroke="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-36" fill="none" viewBox="0 0 96 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
                         </svg>
                         <span class="absolute text-lg font-extrabold left-10 top-0.5">IN-MOVIES</span>
@@ -30,7 +30,7 @@
                     <a href="{{ route('actors.index') }}" class="hover:text-gray-300 ">Actors</a>
                 </li>
             </ul>
-            <div class="flex flex-col md:flex-row items-center">
+            <div class="flex flex-col md:flex-row items-center md:mt-2">
                 <livewire:search-dropdown>
                 <div class="md:ml-4 mt-3 md:mt-0">
                     <a href="#">

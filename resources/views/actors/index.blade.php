@@ -52,7 +52,7 @@
     // options
     path: '/actors/page/@{{#}}',
     append: '.actor',
-    history: false,
+    // history: true,
     status: '.page-load-status'
 });
 </script>
